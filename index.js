@@ -53,7 +53,6 @@ bot.command("contacts", async (ctx) => {
 });
 
 bot.command("it_technologies", async (ctx) => {
-  waitingForAiQuestion = false;
   await ctx.reply("WEB technology: nodeJS, grammyJS, Groq SDK");
 });
 
@@ -74,8 +73,6 @@ bot.on("message:text", async (ctx) => {
 
     await ctx.reply(`AI answer: ${getAiRes}`);
     waitingForAiQuestion = true;
-  } else {
-    await ctx.reply("use the ai command to talk to ai");
   }
 });
 
