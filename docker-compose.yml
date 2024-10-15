@@ -1,0 +1,8 @@
+version: "3.8" # Make sure to use a version that supports env_file
+services:
+  your-service-name:
+    image: sirfromfrance/nodejs-bot:0.0.1
+    ports:
+      - "3001:3000"
+    env_file:
+      - .env # Make sure the path is correct and the file exists
