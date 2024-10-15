@@ -52,7 +52,7 @@ bot.command("contacts", async (ctx) => {
   );
 });
 
-bot.command("it", async (ctx) => {
+bot.command("it_technologies", async (ctx) => {
   await ctx.reply("WEB technology: nodeJS, grammyJS, Groq SDK");
 });
 
