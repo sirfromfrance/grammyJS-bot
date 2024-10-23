@@ -45,7 +45,7 @@ bot.command("student", async (ctx) => {
 
 bot.command("contacts", async (ctx) => {
   await ctx.reply(
-    'My contacts: \nНомер телефону +38099529<span class="tg-spoiler">2205</span> \nЕлектронна пошта: <span class="tg-spoiler">gritsenko5555@gmail.com</span>',
+    'My contacts: \nНомер телефону +38099529<span class="tg-spoiler">1111</span> \nЕлектронна пошта: <span class="tg-spoiler">1111@gmail.com</span>',
     {
       parse_mode: "HTML",
     }
